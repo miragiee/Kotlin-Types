@@ -1,15 +1,15 @@
 fun main() {
     print("Введите фамилию: ")
-    var lastName = readln()
+    val lastName = readln()
 
     print("Введите имя: ")
-    var name = readln()
+    val name = readln()
 
     print ("Введите отчество ")
-    var patronymic = readln()
+    val patronymic = readln()
 
     print("Введите год рождения ")
-    var year = readln()
+    val year = readln()
 
     println("\n$lastName ${name.take(1)}. ${patronymic.take(1)}. родился в $year году")
 }
