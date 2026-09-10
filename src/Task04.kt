@@ -2,14 +2,14 @@ fun main() {
     print("Введите фамилию: ")
     var lastName = readln()
 
-    print("\n\nВведите имя: ")
+    print("Введите имя: ")
     var name = readln()
 
-    print ("\n\nВведите отчество")
+    print ("Введите отчество ")
     var patronymic = readln()
 
-    print("\n\nВведите год рождения")
+    print("Введите год рождения ")
     var year = readln()
 
-    println("\n${lastName + name.take(1)}. ${patronymic.take(1)}. $year года рождения")
+    println("\n$lastName ${name.take(1)}. ${patronymic.take(1)}. родился в $year году")
 }
